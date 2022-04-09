@@ -8,8 +8,7 @@ This project helps to met the requirement which is for the creation of Multiple 
 Terraform code to create resource group
 Here, env=prod tag is used.
 
----------------------------------------------------------------------
-
+# code block
 resource "aws_resourcegroups_group" "rgrp" {
   name = "env-prod"
 
@@ -30,6 +29,5 @@ JSON
   }
 }
 
-                   ---------------------------------------------
                    
 modules folder contains two folder i.e compute and networking, it consist of resources to create EC2 instance and vpc respectively.
