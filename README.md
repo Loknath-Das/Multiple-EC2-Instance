@@ -9,7 +9,7 @@ Terraform code to create resource group
 Here, env=prod tag is used.
 
 ```
-# code block
+# Resource group
 resource "aws_resourcegroups_group" "rgrp" {
   name = "env-prod"
 
