@@ -8,9 +8,9 @@ subnets_cidr = [
 
 key_name = "capstone"   # Change the name as per your key_name
 
-instance_type = "t2.micro"  
+instance_type = "t2.small"  
 
-instance_count = 2     # To launch multiple instance
+instance_count = 3     # To launch multiple instance
 
 name = "tf_prod"       # prefix name for all the resource
 
