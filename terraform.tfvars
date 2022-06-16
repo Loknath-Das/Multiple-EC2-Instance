@@ -10,13 +10,13 @@ key_name = "capstone"   # Change the name as per your key_name
 
 instance_type = "t2.small"  
 
-instance_count = 3     # To launch multiple instance
+instance_count = 1     # To launch multiple instance
 
 name = "tf_prod"       # prefix name for all the resource
 
-subnet_count = "2"     # Two public subnet 
+subnet_count = "1"     # Two public subnet 
 
-resource_group_name = "production"  # Resource Group Name
+#resource_group_name = "production"  # Resource Group Name
 
 
 
