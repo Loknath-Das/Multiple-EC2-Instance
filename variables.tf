@@ -40,8 +40,8 @@ variable "instance_count" {
   
 }
 
-variable "resource_group_name" {}
+#variable "resource_group_name" {}
 
-variable "name" {}
+#variable "name" {}
 
 variable "subnet_count" {}
