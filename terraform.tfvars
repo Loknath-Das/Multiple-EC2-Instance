@@ -14,7 +14,7 @@ instance_count = 1     # To launch multiple instance
 
 name = "tf_prod"       # prefix name for all the resource
 
-subnet_count = "1"     # Two public subnet 
+subnet_count = "2"     # Two public subnet 
 
 #resource_group_name = "production"  # Resource Group Name
 
