@@ -8,7 +8,7 @@ subnets_cidr = [
 
 key_name = "capstone"   # Change the name as per your key_name
 
-instance_type = "t2.small"  
+instance_type = "t2.micro"  
 
 instance_count = 1     # To launch multiple instance
 
