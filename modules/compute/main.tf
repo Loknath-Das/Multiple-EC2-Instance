@@ -11,25 +11,25 @@ data "aws_ami" "amazon-linux-2" {
 }
 
 # Resource Group 
-# resource "aws_resourcegroups_group" "rgrp" {
-#   name = var.resource_group_name
+resource "aws_resourcegroups_group" "rgrp" {
+  name = var.resource_group_name
 
-#   resource_query {
-#     query = <<JSON
-# {
-#   "ResourceTypeFilters": [
-#     "AWS::EC2::Instance"
-#   ],
-#   "TagFilters": [
-#     {
-#       "Key": "env",
-#       "Values": ["prod"]
-#     }
-#   ]
-# }
-# JSON
-#   }
-# }
+  resource_query {
+    query = <<JSON
+{
+  "ResourceTypeFilters": [
+    "AWS::EC2::Instance"
+  ],
+  "TagFilters": [
+    {
+      "Key": "env",
+      "Values": ["prod"]
+    }
+  ]
+}
+JSON
+  }
+}
 
 
 
